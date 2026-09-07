@@ -9,7 +9,14 @@ actions.
 
 ## Status
 
-Planning / pre-implementation. No application code yet — see the backlog.
+Early implementation. Project scaffold is in place (task 1): a runnable Django
+project managed with `uv` and a passing `pytest` suite. No database, Docker, or
+apps yet — see the backlog.
+
+```sh
+uv sync          # create the venv and install dependencies
+uv run pytest    # run the test suite
+```
 
 ## Documentation
 
